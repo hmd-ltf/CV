@@ -1,0 +1,13 @@
+#main-head {
+    margin-left: 35%;
+    margin-top: 50px
+}
+
+
+/* Vertical Line */
+#vLine{
+    border-left: 3px solid gray;
+    height: 500px;
+    margin-left: 50%;
+    top: 0;
+  }
