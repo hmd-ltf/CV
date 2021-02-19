@@ -1,13 +1,18 @@
-#main-head {
-    margin-left: 35%;
-    margin-top: 50px
+#main-head img{
+    margin-top: 100px;
+    display: block;
+    margin:auto;
+}
+#main-head h1{
+    text-align: center;
 }
 
+.custom_dataset {
+    display: inline;
+}
 
 /* Vertical Line */
-#vLine{
-    border-left: 3px solid gray;
-    height: 500px;
-    margin-left: 50%;
-    top: 0;
+.vLine{
+    border-right: 1px solid gray;
+    height: 100%;
   }
