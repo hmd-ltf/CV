@@ -1,5 +1,5 @@
 body {
-    background-color: thistle;
+    background-color: #FF7D61;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 /* Vertical Line */
 .vLine{
     border-right: 1px solid gray;
-    height: 100%;
+    height: auto;
 }
 
 .custom_list li {
@@ -37,7 +37,7 @@ body {
     padding: 10px;
     border-radius: 10%;
     margin: 3px;
-    background-color: thistle
+    background-color:  #FF7D61;
 }
 
 .custom_list_3 li p{
