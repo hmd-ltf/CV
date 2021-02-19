@@ -1,18 +1,45 @@
+body {
+    background-color: thistle;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    background-color: white;
+    border-radius: 3%;
+}
+
 #main-head img{
-    margin-top: 100px;
+    margin-top: auto;
     display: block;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
 }
 #main-head h1{
     text-align: center;
-}
-
-.custom_dataset {
-    display: inline;
 }
 
 /* Vertical Line */
 .vLine{
     border-right: 1px solid gray;
     height: 100%;
-  }
+}
+
+.custom_list li {
+    list-style-type: none;
+    margin-top: 3px;
+    font-size: medium;
+}
+
+.custom_list_2 li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 3px;
+    background-color: thistle;
+}
+
+.custom_list_3 li p{
+    display: inline-block;
+}
