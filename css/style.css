@@ -19,10 +19,12 @@ body {
     text-align: center;
 }
 
-/* Vertical Line */
-.vLine{
-    border-right: 1px solid gray;
-    height: auto;
+@media only screen and (min-width: 600px) {
+    /* Vertical Line */
+    .vLine{
+        border-right: 1px solid gray;
+        height: auto;
+    }
 }
 
 .custom_list li {
